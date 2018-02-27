@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="charlie.a07073.com.ultimatetrickster.activity.TransparentWallpaperActivity">
+
+    <charlie.a07073.com.ultimatetrickster.widget.CustomTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title_text="Transparent Wallpaper" />
+
+    <Button
+        android:id="@+id/wallpaper_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:onClick="setWallpaper"
+        android:text="Set The Transparent Wallpaper" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wallpaper_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Please Choose The Dynamic Wallpaper\nThen Choose The Tricky Brains"
+        android:textColor="@color/text_color" />
+</RelativeLayout>

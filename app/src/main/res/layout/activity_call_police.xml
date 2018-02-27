@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="charlie.a07073.com.ultimatetrickster.activity.CallPoliceActivity">
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:hint="Please input my name"
+        android:cursorVisible="false"
+        android:paddingTop="20dp"
+        android:paddingBottom="20dp"
+
+        android:textColor="@color/white"
+        android:textColorHint="@color/white55"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/text_view_open"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/main_tab_common_text_selector"
+        android:padding="10dp"
+        android:text="Open"
+        android:textSize="18sp" />
+</LinearLayout>

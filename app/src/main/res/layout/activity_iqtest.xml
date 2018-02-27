@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:padding="15dp"
+    tools:context="charlie.a07073.com.ultimatetrickster.activity.IQTestActivity">
+
+    <TextView
+        android:id="@+id/iq_test_question"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/q1"
+        android:textColor="#ffffff" />
+
+
+    <TextView
+        android:id="@+id/iq_test_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iq_test_question"
+        android:layout_marginTop="10dp"
+        android:text="@string/q1_"
+        android:textColor="#00ff00" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iq_test_1"
+        android:layout_marginTop="10dp">
+
+        <RadioButton
+            android:id="@+id/iq_test_answer_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_a1" />
+
+        <RadioButton
+            android:id="@+id/iq_test_answer_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_a2" />
+
+        <RadioButton
+            android:id="@+id/iq_test_answer_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_a3" />
+
+        <RadioButton
+            android:id="@+id/iq_test_answer_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/q1_a4" />
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/iq_test_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="5" />
+
+    <TextView
+        android:id="@+id/text_view_"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/iq_test_time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:text="Please think carefully before answering" />
+
+    <TextView
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_view_"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/main_tab_common_text_selector"
+        android:onClick="nextClick"
+        android:padding="10dp"
+        android:text="Next"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/iq_test_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/next_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="1/5"
+        android:textColor="#ff0000" />
+
+    <ImageView
+        android:id="@+id/iq_test_iv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@mipmap/scary_img"
+        android:visibility="gone" />
+</RelativeLayout>

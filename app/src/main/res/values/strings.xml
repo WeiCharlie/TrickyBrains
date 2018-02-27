@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Tricky Brains</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="_lease_open_permissions">please open permissions</string>
+    <string name="choose_wallpaper">choose the wallpaper</string>
+
+
+    <!--q1-->
+    <string name="q1">Q1:Which answer expresses the meaning of the specified word best?</string>
+    <string name="q1_">ex:reassuring</string>
+
+    <string name="q1_a1">compassionate</string>
+    <string name="q1_a2">comforting</string>
+    <string name="q1_a3">explanatory</string>
+    <string name="q1_a4">meddlesome</string>
+    <!--q2-->
+    <string name="q2">Q2:Which number logically follows this series?</string>
+    <string name="q2_">ex:4     6     9     6     14     6      ...</string>
+
+    <string name="q2_a1">6</string>
+    <string name="q2_a2">17</string>
+    <string name="q2_a3">19</string>
+    <string name="q2_a4">21</string>
+    <!--q3-->
+    <string name="q3">Q3:Which conclusion follows from the statements with absolute certainty?</string>
+    <string name="q3_">ex:None of the stamp collectors is an architect./n
+All the drones are stamp collectors.</string>
+
+    <string name="q3_a1">all stamp collectors are architects</string>
+    <string name="q3_a2"> architects are not drones</string>
+    <string name="q3_a3">no stamp collectors are drones</string>
+    <string name="q3_a4"> some drones are architects</string>
+    <!--q4-->
+    <string name="q4">Q4:What is the correct answer to the following problem.</string>
+    <string name="q4_">ex:Tom has a new set of golf clubs. Using a club 8, the ball travels an average distance of 100 meters. Using a club 7, the ball travels an average distance of 108 meters. Using a club 6, the ball travels an average distance of 114 meters. How far will the ball go if Tom uses a club 5?</string>
+
+    <string name="q4_a1"> 122 meters</string>
+    <string name="q4_a2">120 meters</string>
+    <string name="q4_a3">118 meters</string>
+    <string name="q4_a4">  116 meters</string>
+    <!--q5-->
+    <string name="q5">Q5:Which word(s) can logically replace the question mark?</string>
+    <string name="q5_">ex:Water is to a pipe as ? is to a wire.</string>
+
+    <string name="q5_a1">cord</string>
+    <string name="q5_a2">electricity</string>
+    <string name="q5_a3">heat</string>
+    <string name="q5_a4">gas</string>
+</resources>
